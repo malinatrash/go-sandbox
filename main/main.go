@@ -1,10 +1,12 @@
 package main
 
-import (
-	"trying-to-golang/Slice"
-)
+import "trying-to-golang/concurrency"
 
 func main() {
 	//LinkedList.Test()
-	Slice.Test()
+	//slices.Test()
+	//concurrency.Example()
+	//concurrency.PanicExample()
+	//concurrency.WaitGroupExample()
+	concurrency.ChannelExample()
 }
