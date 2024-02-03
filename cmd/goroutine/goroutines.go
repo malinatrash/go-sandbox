@@ -1,9 +1,11 @@
-package concurrency
+package main
 
-func Example() {
-	//println(runtime.NumCPU())
-	//defer printNumbers()
-	//println("Exit")
+import "runtime"
+
+func main() {
+	println(runtime.NumCPU())
+	defer printNumbers()
+	println("Exit")
 	deferValues()
 }
 

@@ -1,4 +1,4 @@
-package LinkedList
+package main
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ type Node struct {
 	next  *Node
 }
 
-func Test() {
+func main() {
 	var head *Node
 	for {
 		fmt.Println("1 - Добавить ноду")
