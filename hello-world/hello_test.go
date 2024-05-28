@@ -1,4 +1,4 @@
-package main
+package helloworld
 
 import "testing"
 
@@ -20,7 +20,6 @@ func TestHello(t *testing.T) {
 		want := "Hello, World"
 		assertCorrectMessage(t, got, want)
 	})
-
 }
 
 func assertCorrectMessage(t testing.TB, got, want string) {
